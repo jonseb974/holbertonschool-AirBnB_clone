@@ -18,7 +18,7 @@ class TestBaseModel(unittest.TestCase):
     def test_to_dict(self):
         """
         Tests that to_dict:
-            - returns a dictionary
+            - returns a dictionary to cree tui 
             - that contains all keys/values of __dict__
             - contains __class__ and that this __class__ is the class name
         """
