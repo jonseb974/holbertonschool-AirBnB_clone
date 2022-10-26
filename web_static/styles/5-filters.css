@@ -8,13 +8,13 @@
       border: 1px solid #DDDDDD;
       border-radius: 4px;
       display: flex;
-      justify-content: right;
-      
+      align-items: center;
+
       /*position: relative;*/
 }
 
 /* === button === */
-.filters button {
+button {
 
       font-size: 18px;
       background-color: #FF5A5F;
@@ -24,21 +24,36 @@
       width: 20%;
       border: none;
       border-radius: 4px;
-      margin: auto 30px;
+      margin: 0px 30px 0px auto;
 }
 
 /* --- button opacity --- */
-.filters button:hover {
+button:hover {
       opacity: 90%;
 }
 
-/* === class locations === */
-.locations .amenities h3 {
+/* === class locations & amenities === */
+.locations,
+.amenities {
+      width: 25%;
+      height: 100%;
+}
+ /* --- locations border --- */
+ .amenities {
+      border-right:1px solid #DDDDDD;
+ }
+
+/* ===  titles === */
+h3 {
       font-weight: 600;
+      margin: 20px 40px 0px;
+      color: #484848;
 }
 
 /* === subtitles === */
 h4 {
       font-weight: 400;
       font-size: 14px;
+      color: #484848;
+      margin: 0px 40px;
 }
