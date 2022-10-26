@@ -1,0 +1,11 @@
+/* CSS SETTINGS */
+
+body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      /* --- upadate ---*/
+      font-size: 14px;
+      font color: #484848;
+      font-family: Circular, "Helvetica Nueve", Helvetica, Arial, sans-serif;
+}
