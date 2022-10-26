@@ -1,0 +1,18 @@
+/* CSS SETTINGS */
+
+/* ==== body ==== */
+body {
+      margin: 0;
+      padding: 0;
+      /*min-height: 100vh;*/
+      /* --- upadate ---*/
+      font-size: 14px;
+      font color: #484848;
+      font-family: Circular, "Helvetica Nueve", Helvetica, Arial, sans-serif;
+}
+
+/* === class container === */
+.container {
+      max-width: 1000px;
+      margin: 30px auto;
+}
